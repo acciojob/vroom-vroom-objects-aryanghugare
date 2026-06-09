@@ -5,10 +5,10 @@ this.make = make
 this.model = model
 } 
 	getMakeModel() {
-   return `${make}${model}`
+   return `${make} ${model}`
 		
 	}
-	
+	 
 }
 
 function SportsCar extends Car (make, model, topSpeed) {
